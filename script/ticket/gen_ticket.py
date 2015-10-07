@@ -43,12 +43,12 @@ def main():
     ###################################
     # 여기를 적절하게 수정해 주세요
     gen_vacation_ticket(server, '2015.17R(0817)', '오후반차 2015.08.26')
-    # gen_vacation_ticket(server, '2015.20R(0930)', '연차 2015.10.02')
-    # gen_ticket(server,
-    #            '2015.20R(0930)',
-    #            'GoyoProbe 퍼지로그 수집기능 제거, main 함수 예외 처리',
-    #            'KT',
-    #            '통합포털UI')
+    gen_vacation_ticket(server, '2015.20R(0930)', '연차 2015.10.02')
+    gen_ticket(server,
+               '2015.20R(0930)',
+               'GoyoProbe 퍼지로그 수집기능 제거, main 함수 예외 처리',
+               'KT',
+               '통합포털UI')
     ###################################
 
 if __name__ == '__main__':
