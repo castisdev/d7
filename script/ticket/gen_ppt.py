@@ -19,8 +19,8 @@ from pptx.util import Pt
 ###################################
 # 여기를 수정해 주세요
 trac_url = '172.16.33.2:8080/trac'
-name = '윤기선'
-team = '알파팀'
+name = '장세연'
+team = 'I랩'
 ###################################
 
 
@@ -102,7 +102,7 @@ def main(trac_id, trac_pass, this_round):
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:
-        'USAGE: ./gen_ppt.py 2014.1R 2014.5R 2014.6R'
+        print('USAGE: ./gen_ppt.py 2014.1R 2014.5R 2014.6R')
         sys.exit()
 
     trac_id = input('trac username:')
